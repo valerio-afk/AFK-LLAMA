@@ -1,0 +1,44 @@
+HeaderIcon{
+    display: none;
+}
+
+
+#prompt_area
+{
+  layout: horizontal;
+  width: 100%;
+  height: 6;
+  dock: bottom;
+
+}
+
+#prompt_area #prompt
+{
+    height: 5;
+}
+
+#prompt, #prompt.text-area--cursor-line
+{
+    background: $boost;
+}
+
+#status-bar
+{
+    color:black;
+}
+
+#status-bar.warning
+{
+    background: $warning;
+}
+
+#status-bar.success
+{
+    background: $success;
+}
+
+#prompt_area #submit
+{
+    dock:right;
+    align-vertical:middle;
+}
